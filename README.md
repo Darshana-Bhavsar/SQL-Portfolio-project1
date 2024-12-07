@@ -4,14 +4,11 @@
 This project involves the analysis of a fictional music streaming application's database. The aim of this project is to apply SQL querying techniques to gain insights into user behavior, song preferences, and other key metrics that can help improve the user experience and business strategies. The project focuses on extracting valuable data and creating meaningful reports using SQL.
 
 # Database Schema
-The Music App database consists of several interconnected tables that model different entities such as users, songs, playlists, artists, and listening history. Below is a brief overview of the key tables used in this project:
+The Music App database consists of several interconnected tables that model different entities such as Customer,Track,album,invocie,invoice_line, artist. Below is a brief overview of the key tables used in this project:
 
-Users: Contains user details such as user ID, name, email, and subscription type.
-Songs: Stores information about songs including song ID, title, artist ID, genre, and duration.
-Artists: Includes details about artists, such as artist ID and name.
-Playlists: Represents user-created playlists with playlist ID, user ID, and playlist name.
-Playlists_Songs: Many-to-many relationship table between playlists and songs, linking song IDs with playlist IDs.
-Listening_History: Logs user interactions with songs, including play counts, timestamps, and ratings.
+
+
+![MusicDatabaseSchema](https://github.com/user-attachments/assets/470c2f95-46c9-4340-a4a1-a78e0841f141)
 
 # Tools and Technologies
 Database: SQL-based relational database management system (e.g., PostgreSQL)
